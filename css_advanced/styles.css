@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+    width: 1440px;
+    margin: 0 auto 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    background: url(./assets/Object.png) no-repeat center center / cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+nav {
+    width: 240px;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-div {
+    align-items: center;
+}
+
+.title-div> h1 {
+    margin-top: 155px;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+}
+
+.title-div> div {
+    gap: 2rem;
+}
+
+.title-div > div > p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 40px;
+    background-color: #C271FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: center;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50px;
+}
+
+.smile {
+    align-items: center;
+}
+
+.smile > h2 {
+    margin-top: 170px;
+    color: rgba(194, 113, 255, 1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+h2 > span {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    color: #fff;
+}
+
+.pros {
+    width: 1000px;
+    height: 240px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.pros > div {
+    align-items: center;
+    justify-content: center;
+}
+
+.pros > div > p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.pros > div  > h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+}
+
+.pros > div > img {
+    width: 150px;
+    height: 150px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+
+.quote {
+    background: rgba(194, 113, 255, 1);
+    height: 392px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.quote > div > blockquote {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.quote > div > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.quote > div > p {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.videos {
+    justify-content: center;
+    align-items: center;
+    color: rgba(7, 22, 41, 1);
+
+}
+
+.videos > h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.videos > h2 > span {
+    font-weight: 700;
+    color: rgba(194, 113, 255, 1);
+}
+
+.videos-details {
+    width: 1228px;
+    height: 450px;
+}
+
+.video {
+    height: 335px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.absolute {
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.video > h3 {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    justify-self: start;
+}
+
+.video > p {
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    justify-self: start;
+    color: rgba(7, 22, 41, 0.5);
+}
+
+.info {
+    width: 80%;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.info > img {
+    width: 30px;
+    height: 30px;
+}
+
+.rating {
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info > h4, .rating > p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(194, 113, 255, 1);
+}
+
+.membership {
+    background: rgba(7, 22, 41, 1);
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.membership > h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+.membership > h2 > span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    color: rgba(194, 113, 255, 1);
+}
+
+.plans {
+    align-items: center;
+    gap: 100px;
+}
+
+.plan {
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan > img {
+    width: 43.67px;
+    height: 35.35px;
+}
+
+.plan > h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+}
+
+.plan > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.faq {
+    width: 920px;
+    height: 707px;
+    margin: 50px 0;
+    color: rgba(7, 22, 41, 1);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq > h2 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75.42px;
+    text-align: center;
+}
+
+.faq > div {
+    gap: 100px;
+}
+
+.faq > div > div {
+    gap: 200px;
+}
+
+.faq-sections {
+    width: 350px;
+    height: 242px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.faq-sections > h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+}
+
+.faq-sections > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(7, 22, 41, 0.5);
+}
+
+footer {
+    height: 250px;
+    padding-top: 20px;
+    background: rgba(7, 22, 41, 1);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot {
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    text-align: left;
+}

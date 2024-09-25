@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./assets/headphones_hero_1.jpg);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    position: relative;
+    width: 1000px;
+    height: 35px;
+    margin-top: 28px;
+}
+
+header > img {
+    height: 32px;
+}
+
+nav {
+    width: 255px;
+    height: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+li > a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+}
+
+li > a:hover, li > a:active {
+    color: #FF6565;
+}
+
+.action {
+    position: absolute;
+    width: 637px;
+    height: 313px;
+    top: 372px;
+    color: #fff;
+}
+
+.action > div > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+.action > div > p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.6px;
+    text-align: center;
+    color: #fff;
+    width: 162px;
+    height: 44px;
+    background: rgba(255, 101, 101, 1);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.action > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.what-we-do {
+    position: absolute;
+    color: #071629;
+    top: 800px;
+}
+
+.first-div {
+    position: absolute;
+    width: 637px;
+    height: 184px;
+    top: 110px;
+}
+
+.first-div > h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+}
+
+.first-div > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.second-div {
+    position: absolute;
+    width: 1002px;
+    height: 193px;
+    top: 400px;
+}
+
+.second-div h3 {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.second-div p {
+    width: 207px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.our-results {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    top: 1494px;
+    color: #fff;
+    background-image: url(./assets/headphones_hero_2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.our-results h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.our-results > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 637px;
+    height: 104px;
+}
+
+.pentagone-holder {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.pentagone {
+    position: relative;
+}
+
+.pentagone img {
+    width: 190px;
+    height: 190px;
+}
+
+.pentagone h3, .pentagone p {
+    position: absolute;
+    z-index: 2;
+}
+
+.pentagone h3 {
+    top: 70px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.pentagone p {
+    top: 116px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.contact-us {
+    position: absolute;
+    color: #071629;
+    width: 335px;
+    height: 373px;
+    top: 2300px;
+}
+
+.contact-us h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+}
+
+.contact{
+    height: 40%;
+}
+
+.contact input {
+    width: 335px;
+    height: 29px;
+    border: 0;
+    border-bottom: 1px solid #071629;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 249px;
+    top: 2757px;
+    background: rgba(7, 22, 41, 1);
+}
+
+.foot-logo {
+    width: 80%;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/*hamburger menu*/
+
+.hamburger {
+    position: absolute;
+    left: 21px;
+    width: 25px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.hamburger::before, .hamburger::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hamburger::before {
+    top: -10px;
+    width: 35px;
+}
+
+.hamburger::after {
+    top: 10px;
+    width: 30px;
+}
+
+.toggle-menu {
+    position: absolute;
+    left: 21px;
+    width: 30px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.hamburger,  .toggle-menu {
+    display: none;
+}
+
+nav input:checked  ~ .hamburger {
+    background-color: transparent;
+}
+
+nav input:checked  ~ .hamburger::before {
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+nav input:checked  ~ .hamburger::after {
+    top: 0;
+    transform: rotate(45deg);
+    width: 30px;
+}
+
+nav  input:checked ~ .menu {
+    display: block;
+    position: absolute;
+    top: 50px;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-size: auto;
+    }
+
+    header{
+        width: 633px;
+        height: 32px;
+    }
+
+    .action {
+        width: 637px;
+        height: 313px;
+        top: 372px;
+    }
+
+    .second-div {
+        width: 472px;
+        height: 469px;
+        flex-wrap: wrap;
+    }
+
+    .our-results {
+        background-size: auto 100%;
+        width: 768px;
+        height: 800px;
+        top: 1769px;
+        padding: 10px;
+    }
+
+    .pentagone-holder {
+        width: 60%;
+        height: 420px;
+        top: 400px;
+        flex-wrap: wrap;
+    }
+
+    .contact-us {
+        top: 2755px;
+    }
+
+    footer {
+        top: 3260px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        width: 100%;
+        height: 32px;
+    }
+
+    header > img {
+        translate: 100%;
+    }
+
+    .action {
+        width: 357px;
+        height: 436px;
+        top: 327px;
+    }
+
+    .hamburger, .toggle-menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu li {
+        padding: 20px;
+    }
+
+    .first-div {
+        width: 325px;
+        height: 288px;
+    }
+
+    .second-div {
+        width: 207px;
+        height: 1020px;
+    }
+
+    .our-results {
+        width: 375px;
+        height: 1491px;
+        top: 2507px;
+        padding: 30px;
+    }
+
+    .our-results > p {
+        width: 305px;
+        height: 208px;
+        top: 251px;
+    }
+
+    .pentagone-holder {
+        height: auto;
+    }
+
+    .pentagone {
+        padding: 10px;
+    }
+
+    .contact-us {
+        top: 4110px;
+    }
+
+    footer {
+        top: 4610px;
+    }
+
+    .foot-logo {
+        flex-direction: column;
+        height: 40%;
+    }
+}

@@ -8,27 +8,27 @@ This website is built using HTML, CSS, and a touch of magic. It features a respo
 Here's a sneak peek of what you can expect:
 
 ## Header
-Header Section
+
 ![Header of the website](./screen/header.png)
 
 ## Action
-Action Section
+
 ![Action Section](./screen/action.png)
 
 ## What We Do
-What We Do Section
+
 ![What We Do Section](./screen/what-we-do.png)
 
 ## Our Results
-Our Results Section
+
 ![Our Results Section](./screen/result.png)
 
 ## Contact Us
-Contact Us Section
+
 ![Contact Us Section](./screen/contact.png)
 
 ## Footer
-Footer Section
+
 ![Footer Section](./screen/footer.png)
 
 ## Features
